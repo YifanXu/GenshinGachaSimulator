@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/GachaSimulatorBuild/static/css/main.31bb0bc9.chunk.css",
-    "main.js": "/GachaSimulatorBuild/static/js/main.ae60d837.chunk.js",
-    "main.js.map": "/GachaSimulatorBuild/static/js/main.ae60d837.chunk.js.map",
-    "runtime-main.js": "/GachaSimulatorBuild/static/js/runtime-main.fe3a9ad3.js",
-    "runtime-main.js.map": "/GachaSimulatorBuild/static/js/runtime-main.fe3a9ad3.js.map",
-    "static/css/2.f2512455.chunk.css": "/GachaSimulatorBuild/static/css/2.f2512455.chunk.css",
-    "static/js/2.52d79e9c.chunk.js": "/GachaSimulatorBuild/static/js/2.52d79e9c.chunk.js",
-    "static/js/2.52d79e9c.chunk.js.map": "/GachaSimulatorBuild/static/js/2.52d79e9c.chunk.js.map",
-    "index.html": "/GachaSimulatorBuild/index.html",
-    "static/css/2.f2512455.chunk.css.map": "/GachaSimulatorBuild/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.31bb0bc9.chunk.css.map": "/GachaSimulatorBuild/static/css/main.31bb0bc9.chunk.css.map",
-    "static/js/2.52d79e9c.chunk.js.LICENSE.txt": "/GachaSimulatorBuild/static/js/2.52d79e9c.chunk.js.LICENSE.txt"
+    "main.css": "/GenshinGachaSimulator/static/css/main.31bb0bc9.chunk.css",
+    "main.js": "/GenshinGachaSimulator/static/js/main.16d0c741.chunk.js",
+    "main.js.map": "/GenshinGachaSimulator/static/js/main.16d0c741.chunk.js.map",
+    "runtime-main.js": "/GenshinGachaSimulator/static/js/runtime-main.7d46c505.js",
+    "runtime-main.js.map": "/GenshinGachaSimulator/static/js/runtime-main.7d46c505.js.map",
+    "static/css/2.f2512455.chunk.css": "/GenshinGachaSimulator/static/css/2.f2512455.chunk.css",
+    "static/js/2.52d79e9c.chunk.js": "/GenshinGachaSimulator/static/js/2.52d79e9c.chunk.js",
+    "static/js/2.52d79e9c.chunk.js.map": "/GenshinGachaSimulator/static/js/2.52d79e9c.chunk.js.map",
+    "index.html": "/GenshinGachaSimulator/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/GenshinGachaSimulator/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.31bb0bc9.chunk.css.map": "/GenshinGachaSimulator/static/css/main.31bb0bc9.chunk.css.map",
+    "static/js/2.52d79e9c.chunk.js.LICENSE.txt": "/GenshinGachaSimulator/static/js/2.52d79e9c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe3a9ad3.js",
+    "static/js/runtime-main.7d46c505.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.52d79e9c.chunk.js",
     "static/css/main.31bb0bc9.chunk.css",
-    "static/js/main.ae60d837.chunk.js"
+    "static/js/main.16d0c741.chunk.js"
   ]
 }
