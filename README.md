@@ -1,6 +1,6 @@
-# GDC Website
+# Gacha Simulator
 
-Website for Game Design Club
+Medication for my crippling gacha addiction
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
