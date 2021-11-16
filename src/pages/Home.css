@@ -1,0 +1,19 @@
+.full {
+  padding: 25px;
+  float: right;
+  width: 85%;
+}
+
+.main {
+  float:left;
+  width:70%;
+}
+
+.controlBtn {
+  margin: 5px;
+}
+
+.aux {
+  float: right;
+  width: 30%;
+}

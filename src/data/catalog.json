@@ -1,0 +1,332 @@
+{
+    "weapon3": [
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Cool Steel"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Fillet Blade"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Harbinger of Dawn"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Skyrider Sword"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Bloodtainted Greatsword"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Debate Club"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Ferrous Shadow"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Polearm",
+            "name": "Black Tassel"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Raven Bow"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Sharpshooter's Oath"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Slingshot"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Emerald Orb"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Magic Guide"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Otherworldy Story"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Thrilling Tale of Dragon Slayers"
+        }
+    ],
+    "weapon4": [
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Favonious Sword"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Lion's Roar"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Sacrificial Sword"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "The Flute"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Favonious Greatsword"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Rainslasher"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Sacrificial Greatsword"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "The Bell"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Polearm",
+            "name": "Dragon's Bane"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Polearm",
+            "name": "Favonious Lance"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Favonious Warbow"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Rust"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Sacrificial Bow"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "The Stringless"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Eye of Perception"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Favonious Codex"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Sacrificial Fragments"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "The Widsth"
+        }
+    ],
+    "character4": [
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Barbara"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Razor"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Bennett"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Noelle"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Fischl"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Sucrose"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Beidou"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Ningguang"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Xiangling"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Xinqiu"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Chongyun"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Diona"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Xinyan"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Yanfei"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Sayu"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Kujou Sara"
+        }
+    ],
+    "weapon5": [
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Skyward Blade"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Sword",
+            "name": "Aquila Favonia"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Skyward Pride"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Claymore",
+            "name": "Wolf's Gravestone"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Polearm",
+            "name": "Skyward Spine"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Polearm",
+            "name": "Primordial Jade Winged-Spear"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Skyward Harp"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Bow",
+            "name": "Amo's Bow"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Catalyst",
+            "name": "Skyward Atlas"
+        },
+        {
+            "type": "Weapon",
+            "specType": "Polearm",
+            "name": "Lost Prayer to the Sacred Winds"
+        }
+    ],
+    "character5": [
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Jean"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Qiqi"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Diluc"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Mona"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Keqing"
+        }
+    ]
+}

@@ -1,0 +1,329 @@
+{
+  "standard": {
+    "fullName": "Wanderlust Invocation (Standard)"
+  },
+  "character": {
+    "hu tao": {
+      "fullName": "Moment of Bloom (Hu Tao)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Hu Tao"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Diona"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Sayu"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Thoma"
+        }
+      ]
+    },
+    "childe": {
+      "fullName": "Farewell of Snezhnaya (Tartaglia)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Tartaglia"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ningguang"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yanfei"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Chongyun"
+        }
+      ]
+    },
+    "kokomi": {
+      "fullName": "Drifting Luminescence (Kokomi)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Kokomi"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xinqiu"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Beidou"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Rosaria"
+        }
+      ]
+    },
+    "raiden": {
+      "fullName": "Reign of Sernity (Raiden Shogun)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Raiden Shogun"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xiangling"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Sucrose"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Kujou Sara"
+        }
+      ]
+    }
+  },
+  "weapon": {
+    "Staff of Homa": {
+      "fullName": "Epitome Invocation (Elergy for the End/Staff of Homa)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Staff of Homa"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Elergy for the End"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Mouun's Moon"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Sacrificial Sword"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Wavebreaker's Fin"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "The Widsith"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Rainslasher"
+        }
+      ]
+    },
+    "Polar Star": {
+      "fullName": "Epitome Invocation (Polar Star)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Polar Star"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Memory of Dust"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Rust"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Favonious Sword"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Favonious Lance"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Eye of Perception"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Akuoumaru"
+        }
+      ]
+    },
+    "Jade Cutter": {
+      "fullName": "Epitome Invocation (Jade Cutter)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Everlasting Moonglow"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Primordial Jade Cutter"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Stringless"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "The Flute"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Dragon's Bane"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Favonious Codex"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Favonious Greatsword"
+        }
+      ]
+    },
+    "Engulfing Lightning": {
+      "fullName": "Epitome Invocation (Engulfing Lightning)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Unforged"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Engulfing Lightning"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Sacrificial Bow"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Lion's Roar"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Favonious Lance"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "The Widsth"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "The Bell"
+        }
+      ]
+    }
+  }
+}
