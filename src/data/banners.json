@@ -3,6 +3,68 @@
     "fullName": "Wanderlust Invocation (Standard)"
   },
   "character": {
+    "albedo": {
+      "fullName": "Moment of Bloom (Hu Tao)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Albedo"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Noelle"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Bennett"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Rosaria"
+        }
+      ]
+    },
+    "eula": {
+      "fullName": "Moment of Bloom (Hu Tao)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Eula"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Noelle"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Bennett"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Rosaria"
+        }
+      ]
+    },
     "hu tao": {
       "fullName": "Moment of Bloom (Hu Tao)",
       "promo5": [
@@ -129,8 +191,57 @@
     }
   },
   "weapon": {
+    "Broken Pines/Freedom-Sworn": {
+      "fullName": "Epitome Invocation (Song of Broken Pines/Freedom-Sworn)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Song of Broken Pines"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Freedom-Sworn"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Alley Hunter"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Lion's Roar"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Dragon's Bane"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Wine and Song"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Sacrificial Greatsword"
+        }
+      ]
+    },
     "Staff of Homa": {
-      "fullName": "Epitome Invocation (Elergy for the End/Staff of Homa)",
+      "fullName": "Epitome Invocation (Elegy for the End/Staff of Homa)",
       "promo5": [
         {
           "rarity": 5,
@@ -142,7 +253,7 @@
           "rarity": 5,
           "type": "Weapon",
           "specType": "Bow",
-          "name": "Elergy for the End"
+          "name": "Elegy for the End"
         }
       ],
       "promo4": [

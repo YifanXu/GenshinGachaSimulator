@@ -248,6 +248,11 @@
             "type": "Character",
             "specType": "Standard",
             "name": "Kujou Sara"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Thoma"
         }
     ],
     "weapon5": [

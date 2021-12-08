@@ -8,7 +8,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 
 const sideNavItems = {
-  'Home': '/',
+  'Home': '/GenshinGachaSimulator/',
 //  'About': '/About'
 }
 
@@ -19,10 +19,13 @@ function App() {
         <a href="/">Gacha Addiction Simulator</a>
       </div>
       <SideNav items={sideNavItems}/>
-      <Router id="content">
+      <Home/>
+      {/* <Router id="content">
         <Route exact={true} path="/" component={Home}/>
+        <Route exact={true} path="/GenshinGachaSimulator/" component={Home}/>
         <Route exact={true} path="/About" component={About}/>
-      </Router>
+        <Route exact={true} path="/GenshinGachaSimulator/About" component={About}/>
+      </Router> */}
     </div>
   );
 }
