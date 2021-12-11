@@ -3,6 +3,37 @@
     "fullName": "Wanderlust Invocation (Standard)"
   },
   "character": {
+    "arataki itto": {
+      "fullName": "Oni's Royale (Arataki Itto)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Arataki Itto"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xiangling"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Gorou"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Barbara"
+        }
+      ]
+    },
     "albedo": {
       "fullName": "Secretum Secretorum (Albedo)",
       "promo5": [
@@ -191,6 +222,55 @@
     }
   },
   "weapon": {
+    "Redhorn Stonethresher": {
+      "fullName": "Epitome Invocation (Redhorn Stonethresher)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Redhorn Stonethresher"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Skyward Harp"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Mitternachts Waltz"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Alley Flash"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Favonious Lance"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Sacrificial Fragments"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "The Bell"
+        }
+      ]
+    },
     "Broken Pines/Freedom-Sworn": {
       "fullName": "Epitome Invocation (Song of Broken Pines/Freedom-Sworn)",
       "promo5": [
