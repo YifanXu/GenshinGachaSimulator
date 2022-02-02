@@ -3,6 +3,130 @@
     "fullName": "Wanderlust Invocation (Standard)"
   },
   "character": {
+    "ganyu": {
+      "fullName": "Adrift in the Harbor (Ganyu)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ganyu"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yanfei"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xinqiu"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Beidou"
+        }
+      ]
+    },
+    "zhongli": {
+      "fullName": "Gentry of Hermitage (Zhongli)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Zhongli"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yanfei"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xinqiu"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Beidou"
+        }
+      ]
+    },
+    "xiao": {
+      "fullName": "Invitation to Mundane Life (Xiao)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xiao"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yun Jun"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ningguang"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Chongyun"
+        }
+      ]
+    },
+    "shenhe": {
+      "fullName": "The Transcendant One Returns (Shenhe)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Shenhe"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yun Jun"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ningguang"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Chongyun"
+        }
+      ]
+    },
     "arataki itto": {
       "fullName": "Oni's Royale (Arataki Itto)",
       "promo5": [
@@ -222,6 +346,104 @@
     }
   },
   "weapon": {
+    "Vortex Vanquisher": {
+      "fullName": "Epitome Invocation (Amo's Bow/Vortex Vanquisher)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Amo's Bow"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Vortex Vanquisher"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Sacrificial Bow"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Favonious Bow"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Dragon's Bane"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Favonious Codex"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Lithic Blade"
+        }
+      ]
+    },
+    "Calamity Queller": {
+      "fullName": "Epitome Invocation (Calamity Queller/Primordial Jade-Wing Spear)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Calamity Queller"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Primordial Jade-Wing Spear"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Favonious Warbow"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "The Flute"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Lithic Spear"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "The Widsith"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Favonious Greatsword"
+        }
+      ]
+    },
     "Redhorn Stonethresher": {
       "fullName": "Epitome Invocation (Redhorn Stonethresher)",
       "promo5": [
