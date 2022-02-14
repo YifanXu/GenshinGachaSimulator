@@ -62,6 +62,7 @@ class CBanner extends Banner {
     const rarity = this.rollRarity(rc)
 
     let rewardList = []
+    let rateUpReward = null
     switch (rarity) {
       case 3:
         rewardList = this.catalog.weapon3
@@ -75,6 +76,7 @@ class CBanner extends Banner {
         else {
           // 50/50 Character or banner
           this.guarantee4 = true
+          rateUpReward = this.bannerInfo.promo4
           if (Math.random() > 0.5) {
             rewardList = this.catalog.character4
           }
@@ -90,6 +92,7 @@ class CBanner extends Banner {
         }
         else {
           this.guarantee5 = true
+          rateUpReward = this.bannerInfo.promo5
           rewardList = this.catalog.weapon5
         }
         break;
@@ -118,6 +121,18 @@ class CBanner extends Banner {
         }
         else if (ep) {
           this.epCount++
+        }
+      }
+    }
+
+    // Resets guarantee if reward was taken from standard pool, but still part of the rate up
+    // Ex. Beidou is on rate up but the 50/50 was lost. Reward from standard pool still resulted in a beidou
+    if (rateUpReward) {
+      for (const rateUpItem of rateUpReward) {
+        if (reward === rateUpItem.name) {
+          if (this.rarity === 4) this.guarantee4 = false
+          else this.guarantee5 = false
+          break
         }
       }
     }

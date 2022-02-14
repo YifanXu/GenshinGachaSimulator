@@ -3,6 +3,37 @@
     "fullName": "Wanderlust Invocation (Standard)"
   },
   "character": {
+    "yae miko": {
+      "fullName": "Everbloom Violet (Yae Miko)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yae Miko"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Diona"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Fischl"
+        },
+        {
+          "rarity": 4,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Thoma"
+        }
+      ]
+    },
     "ganyu": {
       "fullName": "Adrift in the Harbor (Ganyu)",
       "promo5": [
@@ -346,6 +377,55 @@
     }
   },
   "weapon": {
+    "Kagura's Verity": {
+      "fullName": "Epitome Invocation (Kagura's Verity/Primordial Jade Cutter)",
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Kagura's Verity"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Primordial Jade Cutter"
+        }
+      ],
+      "promo4": [
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "The Stringless"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Sacrifical Bow"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Wavebreaker's Fin"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Eye of Perception"
+        },
+        {
+          "rarity": 4,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Rainslasher"
+        }
+      ]
+    },
     "Vortex Vanquisher": {
       "fullName": "Epitome Invocation (Amo's Bow/Vortex Vanquisher)",
       "promo5": [
