@@ -14,6 +14,13 @@ const pullColors = {
   5: '#c79b18'
 }
 
+const bannerTypeTxt = {
+  'n': 'Banner Type',
+  's': 'Standard Banner',
+  'c': 'Character Banner',
+  'w': 'Weapon Banner'
+}
+
 const colorPull = (pull, column) => {
   let style = {}
   if(pullColors[pull.rarity]) style.color = pullColors[pull.rarity]
@@ -25,7 +32,10 @@ class Home extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      dropdownOpen: false,
+      typeDropOpen: false,
+      activeTypeFilter: 'n',
+      activeBannerList: [],
+      bannerDropOpen: false,
       epDropOpen: false,
       epitomeValue: "",
       activeType: '',
@@ -70,6 +80,10 @@ class Home extends React.Component {
     }
 
     this.setState(reducer)
+  }
+
+  resetBannerType (newType, newList) {
+
   }
 
   pull(repeats = 10) {
@@ -135,19 +149,23 @@ class Home extends React.Component {
     return (
       <div className="full">
         <h2>Genshin Gacha :(</h2>
-        <div>
-          <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={(e) => this.setState({dropdownOpen: !this.state.dropdownOpen})}>
+        <div className='bannerSelector'>
+          <ButtonDropdown isOpen={this.state.typeDropOpen} toggle={(e) => this.setState({typeDropOpen: !this.state.typeDropOpen})}>
             <DropdownToggle caret>
-              {this.state.activeType ? (this.state.activeBanner ? this.state.activeBanner.fullName : "Standard Banner") : "Select a Banner..."}
+              {bannerTypeTxt[this.state.activeTypeFilter]}
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem onClick={()=>this.resetBanner({activeType: 's', activeBanner: null})}>Standard Banner</DropdownItem>
-
-              <DropdownItem header>Character</DropdownItem>
-              {Object.keys(banners.character).map(bannerName => <DropdownItem key={bannerName} onClick={()=>this.resetBanner({activeType: 'c', activeBanner: banners.character[bannerName]})}>{bannerName}</DropdownItem>)}
-            
-              <DropdownItem header>Weapon</DropdownItem>
-              {Object.keys(banners.weapon).map(bannerName => <DropdownItem key={bannerName} onClick={()=>this.resetBanner({activeType: 'w', activeBanner: banners.weapon[bannerName]})}>{bannerName}</DropdownItem>)}
+              <DropdownItem onClick={()=>{this.setState({activeTypeFilter: 's', activeBannerList: []}); this.resetBanner({activeType: 's', activeBanner: null})}}>Standard Banner</DropdownItem>
+              <DropdownItem onClick={()=>this.setState({activeTypeFilter: 'c', activeBannerList: banners.character})}>Character Banner</DropdownItem>
+              <DropdownItem onClick={()=>this.setState({activeTypeFilter: 'w', activeBannerList: banners.weapon})}>Weapon Banner</DropdownItem>
+            </DropdownMenu>
+          </ButtonDropdown>
+          <ButtonDropdown isOpen={this.state.bannerDropOpen} toggle={(e) => this.setState({bannerDropOpen: !this.state.bannerDropOpen})}>
+            <DropdownToggle caret disabled={this.state.activeTypeFilter === 'n' || this.state.activeTypeFilter === 's'}>
+              {this.state.activeBanner ? this.state.activeBanner.fullName : "Select a Banner..."}
+            </DropdownToggle>
+            <DropdownMenu>
+              {Object.keys(this.state.activeBannerList).map(bannerName => <DropdownItem key={bannerName} onClick={()=>this.resetBanner({activeType: this.state.activeTypeFilter, activeBanner: this.state.activeBannerList[bannerName]})}>{bannerName}</DropdownItem>)}
             </DropdownMenu>
           </ButtonDropdown>
         </div>

@@ -17,3 +17,7 @@
   float: right;
   width: 30%;
 }
+
+.bannerSelector > div {
+  margin: 5px;
+}
