@@ -90,6 +90,8 @@ class CBanner extends Banner {
           rateUpReward = this.bannerInfo.promo5
         }
         break;
+      default:
+        throw new Error(`unknown rarity ${rarity}`)
     }
 
     // Randomly pick from reward list
