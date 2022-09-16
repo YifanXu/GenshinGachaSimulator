@@ -18,6 +18,34 @@
   width: 30%;
 }
 
+.bannerSelector {
+  display: flex;
+}
+
 .bannerSelector > div {
   margin: 5px;
+}
+
+.bannerInput {
+  max-width: 500px;
+}
+
+.bannerPopover .popover{
+  background-color: aliceblue;
+  max-width: 500px;
+  padding: 0px;
+}
+
+.popover-body {
+  padding: 0px !important;
+}
+
+.bannerDropList {
+  width: 500px;
+  margin: 0px;
+}
+
+.bannerSelectItem:hover {
+  background-color: rgb(155, 191, 245);
+  transition: 200ms;
 }

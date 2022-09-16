@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Input, Popover, PopoverBody, ListGroup, ListGroupItem } from 'reactstrap';
 import banners from '../data/banners.json'
 import RSTable from '../RSTable'
 import AggregateTable from '../AggregateTable';
@@ -35,7 +35,9 @@ class Home extends React.Component {
       typeDropOpen: false,
       activeTypeFilter: 'n',
       activeBannerList: [],
+      bannerFilterInput: '',
       bannerDropOpen: false,
+      bannerPopoverOpen: false,
       epDropOpen: false,
       epitomeValue: "",
       activeType: '',
@@ -82,8 +84,13 @@ class Home extends React.Component {
     this.setState(reducer)
   }
 
-  resetBannerType (newType, newList) {
-
+  resetBannerType (newType, newList, setStandard = false) {
+    this.setState({
+      activeTypeFilter: newType,
+      activeBannerList: newList,
+      bannerFilterInput: ''
+    })
+    if(setStandard) this.resetBanner({activeType: 's', activeBanner: null})
   }
 
   pull(repeats = 10) {
@@ -155,19 +162,28 @@ class Home extends React.Component {
               {bannerTypeTxt[this.state.activeTypeFilter]}
             </DropdownToggle>
             <DropdownMenu>
-              <DropdownItem onClick={()=>{this.setState({activeTypeFilter: 's', activeBannerList: []}); this.resetBanner({activeType: 's', activeBanner: null})}}>Standard Banner</DropdownItem>
-              <DropdownItem onClick={()=>this.setState({activeTypeFilter: 'c', activeBannerList: banners.character})}>Character Banner</DropdownItem>
-              <DropdownItem onClick={()=>this.setState({activeTypeFilter: 'w', activeBannerList: banners.weapon})}>Weapon Banner</DropdownItem>
+              <DropdownItem onClick={()=>this.resetBannerType('s',  [], true)}>Standard Banner</DropdownItem>
+              <DropdownItem onClick={()=>this.resetBannerType('c',  banners.character)}>Character Banner</DropdownItem>
+              <DropdownItem onClick={()=>this.resetBannerType('w',  banners.weapon)}>Weapon Banner</DropdownItem>
             </DropdownMenu>
           </ButtonDropdown>
-          <ButtonDropdown isOpen={this.state.bannerDropOpen} toggle={(e) => this.setState({bannerDropOpen: !this.state.bannerDropOpen})}>
-            <DropdownToggle caret disabled={this.state.activeTypeFilter === 'n' || this.state.activeTypeFilter === 's'}>
-              {this.state.activeBanner ? this.state.activeBanner.fullName : "Select a Banner..."}
-            </DropdownToggle>
-            <DropdownMenu>
-              {Object.keys(this.state.activeBannerList).map(bannerName => <DropdownItem key={bannerName} onClick={()=>this.resetBanner({activeType: this.state.activeTypeFilter, activeBanner: this.state.activeBannerList[bannerName]})}>{bannerName}</DropdownItem>)}
-            </DropdownMenu>
-          </ButtonDropdown>
+          <Input 
+            className='bannerInput' 
+            type='search' 
+            list='banners' 
+            id="bannerInput" 
+            value={this.state.bannerFilterInput} 
+            onChange={(e)=>this.setState({bannerFilterInput: e.target.value, bannerPopoverOpen: true})}
+            disabled={this.state.activeTypeFilter === 'n' || this.state.activeTypeFilter === 's'} 
+            onBlur={() => this.setState({bannerPopoverOpen: false})}>
+          </Input>
+          <Popover className='bannerPopover' placement="bottom" isOpen={this.state.bannerPopoverOpen} target="bannerInput" toggle={() => this.setState({bannerPopoverOpen: !this.state.bannerPopoverOpen})}>
+            <PopoverBody>
+              <ListGroup className='bannerDropList'>
+                {Object.keys(this.state.activeBannerList).map(bannerName => bannerName.toLocaleLowerCase().includes(this.state.bannerFilterInput.toLocaleLowerCase()) ? <ListGroupItem key={bannerName} className='bannerSelectItem' onClick={()=>this.resetBanner({activeType: this.state.activeTypeFilter, activeBanner: this.state.activeBannerList[bannerName], bannerFilterInput: bannerName})}>{bannerName}</ListGroupItem> : null)}
+              </ListGroup>
+            </PopoverBody>
+          </Popover>
         </div>
         <div>
           {this.state.activeBanner ? <RSTable columns={['rarity', 'type', 'name']} data={this.state.activeBanner.promo5.concat(this.state.activeBanner.promo4)}/> : null}
