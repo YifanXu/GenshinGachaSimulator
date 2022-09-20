@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { version } from 'react'
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Input, Popover, PopoverBody, ListGroup, ListGroupItem } from 'reactstrap';
 import banners from '../data/banners.json'
 import RSTable from '../RSTable'
@@ -33,6 +33,7 @@ class Home extends React.Component {
     super(props)
     this.state = {
       typeDropOpen: false,
+      versionDropOpen: false,
       activeTypeFilter: 'n',
       activeBannerList: [],
       bannerFilterInput: '',
@@ -42,6 +43,7 @@ class Home extends React.Component {
       epitomeValue: "",
       activeType: '',
       activeBanner: null,
+      activeVersion: '',
       bannerObject: null,
       displayedPulls: [],
       aggregate: {},
@@ -72,10 +74,11 @@ class Home extends React.Component {
         reducer.bannerObject = new SBanner()
         break
       case 'w':
-        reducer.bannerObject = new WBanner(reducer.activeBanner || this.state.activeBanner)
+        reducer.bannerObject = new WBanner(reducer.activeBanner || this.state.activeBanner, reducer.activeVersion || this.state.activeVersion)
         break
       case 'c':
-        reducer.bannerObject = new CBanner(reducer.activeBanner || this.state.activeBanner)
+        console.log(reducer)
+        reducer.bannerObject = new CBanner(reducer.activeBanner || this.state.activeBanner, reducer.activeVersion || this.state.activeVersion)
         break
       default:
         throw new Error('Invalid Banner Type')
@@ -90,7 +93,25 @@ class Home extends React.Component {
       activeBannerList: newList,
       bannerFilterInput: ''
     })
-    if(setStandard) this.resetBanner({activeType: 's', activeBanner: null})
+    if(setStandard) this.resetBanner({activeType: 's', activeBanner: null, activeBannerName: null})
+  }
+
+  handleBannerSelect (bannerName) {
+    const bannerObj = this.state.activeBannerList[bannerName]
+    if (!bannerObj) return
+    const bannerVersions = Object.keys(bannerObj.details)
+    let defaultVersion = null
+    
+    defaultVersion = bannerVersions[bannerVersions.length - 1]
+
+    // Choose which version to use by default  
+    this.resetBanner({
+      activeType: this.state.activeTypeFilter, 
+      activeBanner: this.state.activeBannerList[bannerName], 
+      activeBannerName: bannerName, 
+      bannerFilterInput: bannerName,
+      activeVersion: defaultVersion || ''
+    })
   }
 
   pull(repeats = 10) {
@@ -157,7 +178,7 @@ class Home extends React.Component {
       <div className="full">
         <h2>Genshin Gacha :(</h2>
         <div className='bannerSelector'>
-          <ButtonDropdown isOpen={this.state.typeDropOpen} toggle={(e) => this.setState({typeDropOpen: !this.state.typeDropOpen})}>
+          <ButtonDropdown isOpen={this.state.typeDropOpen} toggle={(e) => this.setState({typeDropOpen: !this.state.typeDropOpen})} className="bannerTypeDropdown">
             <DropdownToggle caret>
               {bannerTypeTxt[this.state.activeTypeFilter]}
             </DropdownToggle>
@@ -175,19 +196,32 @@ class Home extends React.Component {
             value={this.state.bannerFilterInput} 
             onChange={(e)=>this.setState({bannerFilterInput: e.target.value, bannerPopoverOpen: true})}
             disabled={this.state.activeTypeFilter === 'n' || this.state.activeTypeFilter === 's'} 
-            onBlur={() => this.setState({bannerPopoverOpen: false})}>
-          </Input>
+            onBlur={() => this.setState({bannerPopoverOpen: false})}/>
           <Popover className='bannerPopover' placement="bottom" isOpen={this.state.bannerPopoverOpen} target="bannerInput" toggle={() => this.setState({bannerPopoverOpen: !this.state.bannerPopoverOpen})}>
             <PopoverBody>
               <ListGroup className='bannerDropList'>
-                {Object.keys(this.state.activeBannerList).map(bannerName => bannerName.toLocaleLowerCase().includes(this.state.bannerFilterInput.toLocaleLowerCase()) ? <ListGroupItem key={bannerName} className='bannerSelectItem' onClick={()=>this.resetBanner({activeType: this.state.activeTypeFilter, activeBanner: this.state.activeBannerList[bannerName], bannerFilterInput: bannerName})}>{bannerName}</ListGroupItem> : null)}
+                {Object.keys(this.state.activeBannerList).map(bannerName => bannerName.toLocaleLowerCase().includes(this.state.bannerFilterInput.toLocaleLowerCase()) ? <ListGroupItem key={bannerName} className='bannerSelectItem' onClick={() => this.handleBannerSelect(bannerName)}>{bannerName}</ListGroupItem> : null)}
               </ListGroup>
             </PopoverBody>
           </Popover>
+          <ButtonDropdown isOpen={this.state.versionDropOpen} toggle={(e) => this.setState({versionDropOpen: !this.state.versionDropOpen})} disabled={!this.state.activeBanner}>
+            <DropdownToggle caret disabled={!this.state.activeBanner}>
+              {this.state.activeVersion || 'Version'}
+            </DropdownToggle>
+            <DropdownMenu>
+              {(this.state.activeBanner && this.state.activeBanner.details) ? Object.keys(this.state.activeBanner.details).map(version => <DropdownItem key={version} onClick={()=>this.resetBanner({activeVersion: version})}>{version}</DropdownItem>) : <DropdownItem>Placeholder</DropdownItem>}
+            </DropdownMenu>
+          </ButtonDropdown>
         </div>
-        <div>
-          {this.state.activeBanner ? <RSTable columns={['rarity', 'type', 'name']} data={this.state.activeBanner.promo5.concat(this.state.activeBanner.promo4)}/> : null}
-        </div>
+        {this.state.activeBanner && this.state.activeVersion ? 
+          <div className='bannerInfoContainer'>
+            <div className='basicInfoBlock'>
+              {this.state.activeBanner.details[this.state.activeVersion].bannerImg ? <img className='bannerImg' src={this.state.activeBanner.details[this.state.activeVersion].bannerImg} alt='In Game Banner'/> : <p className='imgPlaceholder'>No Banner Image</p>}
+              <p>Run Time: <span className='bannerDateSpan'>{this.state.activeBanner.details[this.state.activeVersion].startDate}</span> to <span className='bannerDateSpan'>{this.state.activeBanner.details[this.state.activeVersion].endDate}</span></p>
+            </div>
+            <RSTable className='bannerTable' columns={['rarity', 'specType', 'name']} data={this.state.activeBanner.promo5.concat(this.state.activeBanner.details[this.state.activeVersion].promo4)}/>
+          </div> : (this.state.activeType === 's' ? <img className='basicInfoBlock' src={banners.standard.bannerImg} alt='Standard Banner'/> : null)
+        }
         <hr/>
         <div className="main">
           <h3>Wishing</h3>
@@ -197,10 +231,10 @@ class Home extends React.Component {
             <Button className="controlBtn" onClick={() => this.pull(10)}>Wish x10</Button>
             <Button className="controlBtn" onClick={() => this.pull(100)}>Wish x100</Button>
             <Button className="controlBtn" onClick={() => this.pull(1000)}>Wish x1000</Button>
-            <p>{(this.state.bannerObject ? `Active Banner: ${this.state.activeBanner ? this.state.activeBanner.fullName : 'Standard Banner'}. 5* Pity=${this.state.bannerObject.pity5} Guarantee=${this.state.bannerObject.guarantee5 } EP=${this.state.bannerObject.epCount || 0}` : 'No Active Banner')}</p>
+            {this.state.bannerObject ? <p>Active Banner: <b>{`${this.state.activeBanner ? this.state.activeBannerName : 'Standard Banner'}${this.state.activeBanner ? ' v' + this.state.activeVersion : ''}`}</b>. 5* Pity={this.state.bannerObject.pity5} Guarantee={this.state.bannerObject.guarantee5.toString()} EP={this.state.bannerObject.epCount || 0}</p> : <p>No Active Banner</p>}
           </div>
           <div>
-          <ButtonDropdown isOpen={this.state.epDropOpen} toggle={() => this.setState({epDropOpen: !this.state.epDropOpen})}>
+          <ButtonDropdown className='epDropdown' isOpen={this.state.epDropOpen} toggle={() => this.setState({epDropOpen: !this.state.epDropOpen})}>
             <DropdownToggle caret disabled={!this.state.bannerObject || !(this.state.bannerObject instanceof WBanner)}>
               Epitomized Path: {this.state.epitomeValue || "N/A"}
             </DropdownToggle>

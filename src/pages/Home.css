@@ -26,14 +26,21 @@
   margin: 5px;
 }
 
+.bannerTypeDropdown {
+  width: 160px;
+}
+
 .bannerInput {
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .bannerPopover .popover{
   background-color: aliceblue;
-  max-width: 500px;
+  max-width: 550px;
+  max-height: 50vh;
   padding: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .popover-body {
@@ -41,11 +48,46 @@
 }
 
 .bannerDropList {
-  width: 500px;
+  width: 550px;
   margin: 0px;
 }
 
 .bannerSelectItem:hover {
   background-color: rgb(155, 191, 245);
   transition: 200ms;
+}
+
+.bannerInfoContainer {
+  width: 100%;
+}
+
+.bannerInfoContainer>* {
+  display:inline-block;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.basicInfoBlock {
+  width: 50%;
+}
+
+.bannerImg {
+  width: 100%;
+}
+
+.imgPlaceholder {
+  border: 1px solid black;
+  padding-bottom: 50%;
+}
+
+.bannerTable {
+  width: 50%;
+}
+
+.bannerDateSpan {
+  color: coral;
+}
+
+.epDropdown {
+  padding-left: 5px;
 }

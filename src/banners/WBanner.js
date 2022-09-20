@@ -31,12 +31,13 @@ const softPityArr = [
 ]
 
 class CBanner extends Banner {
-  constructor(banner) {
+  constructor(banner, version) {
     super()
     this.guarantee5 = false
     this.guarantee4 = false
     this.bannerInfo = banner
     this.epCount = 0
+    this.version = version
   }
 
   rollRarity(rc) {
@@ -70,13 +71,13 @@ class CBanner extends Banner {
       case 4:
         if (this.guarantee4 || Math.random() > 0.25) {
           // Get promotional
-          rewardList = this.bannerInfo.promo4
+          rewardList = this.bannerInfo.details[this.version].promo4
           this.guarantee4 = false
         }
         else {
           // 50/50 Character or banner
           this.guarantee4 = true
-          rateUpReward = this.bannerInfo.promo4
+          rateUpReward = this.bannerInfo.details[this.version].promo4
           if (Math.random() > 0.5) {
             rewardList = this.catalog.character4
           }
@@ -96,6 +97,8 @@ class CBanner extends Banner {
           rewardList = this.catalog.weapon5
         }
         break;
+      default:
+          throw new Error(`unknown rarity ${rarity}`)
     }
 
     // Randomly pick from reward list

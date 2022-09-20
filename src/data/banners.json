@@ -1,289 +1,184 @@
 {
   "standard": {
-    "fullName": "Wanderlust Invocation (Standard)"
+    "fullName": "Wanderlust Invocation (Standard)",
+    "bannerImg": "https://paimon.moe/images/banners/Wanderlust%20Invocation%201.png"
   },
   "character": {
-    "yae miko": {
-      "fullName": "Everbloom Violet (Yae Miko)",
+    "Ballad in Goblets (Venti)": {
       "promo5": [
         {
           "rarity": 5,
           "type": "Character",
           "specType": "Promotional",
-          "name": "Yae Miko"
+          "name": "Venti"
         }
       ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Diona"
+      "details": {
+        "1.0": {
+          "startDate": "2020-09-26",
+          "endDate": "2020-10-18",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-09-28_Ballad_in_Goblets.png",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Fischl"
+        "1.4": {
+          "startDate": "2021-03-17",
+          "endDate": "2021-04-06",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-03-16_BalladInGoblets.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Razor"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Thoma"
+        "2.6": {
+          "startDate": "2022-03-30",
+          "endDate": "2022-04-19",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-03-30_Ballad_in_Goblets.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yun Jin"
+            }
+          ]
         }
-      ]
+      }
     },
-    "ganyu": {
-      "fullName": "Adrift in the Harbor (Ganyu)",
+    "Sparkling Steps (Klee)": {
       "promo5": [
         {
           "rarity": 5,
           "type": "Character",
           "specType": "Promotional",
-          "name": "Ganyu"
+          "name": "Klee"
         }
       ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Yanfei"
+      "details": {
+        "1.0": {
+          "startDate": "2020-10-20",
+          "endDate": "2020-11-10",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-10-19_Sparkling_Steps.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Xinqiu"
+        "1.6": {
+          "startDate": "2021-06-09",
+          "endDate": "2021-06-29",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021_06_07_Sparkling_Steps.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Beidou"
+        "2.8": {
+          "startDate": "2022-07-13",
+          "endDate": "2022-08-02",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-07-13_Sparkling_Steps.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Heizou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Thoma"
+            },
+            { 
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            }
+          ]
         }
-      ]
+      }
     },
-    "zhongli": {
-      "fullName": "Gentry of Hermitage (Zhongli)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Zhongli"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Yanfei"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Xinqiu"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Beidou"
-        }
-      ]
-    },
-    "xiao": {
-      "fullName": "Invitation to Mundane Life (Xiao)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Xiao"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Yun Jun"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Ningguang"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Chongyun"
-        }
-      ]
-    },
-    "shenhe": {
-      "fullName": "The Transcendant One Returns (Shenhe)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Shenhe"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Yun Jun"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Ningguang"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Chongyun"
-        }
-      ]
-    },
-    "arataki itto": {
-      "fullName": "Oni's Royale (Arataki Itto)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Arataki Itto"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Xiangling"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Gorou"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Barbara"
-        }
-      ]
-    },
-    "albedo": {
-      "fullName": "Secretum Secretorum (Albedo)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Albedo"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Noelle"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Bennett"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Rosaria"
-        }
-      ]
-    },
-    "eula": {
-      "fullName": "Born of Ocean Swell (Eula)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Eula"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Noelle"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Bennett"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Rosaria"
-        }
-      ]
-    },
-    "hu tao": {
-      "fullName": "Moment of Bloom (Hu Tao)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Hu Tao"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Diona"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Sayu"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Thoma"
-        }
-      ]
-    },
-    "childe": {
-      "fullName": "Farewell of Snezhnaya (Tartaglia)",
+    "Farewell of Snezhnaya (Tartaglia)": {
       "promo5": [
         {
           "rarity": 5,
@@ -292,60 +187,780 @@
           "name": "Tartaglia"
         }
       ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Ningguang"
+      "details": {
+        "1.1": {
+          "startDate": "2020-11-11",
+          "endDate": "2020-12-01",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-11-10_Farewell_of_Snezhnaya.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Yanfei"
+        "1.4": {
+          "startDate": "2021-04-06",
+          "endDate": "2021-04-27",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-04-06_Farewell_of_Snezhnaya.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Rosaria"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Chongyun"
+        "2.2": {
+          "startDate": "2021-10-13",
+          "endDate": "2021-11-02",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-10-12_Farewell_of_Snezhnaya.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            }
+          ]
         }
-      ]
+      }
     },
-    "kokomi": {
-      "fullName": "Drifting Luminescence (Kokomi)",
+    "Gentry of Hermitage (Zhongli)": {
       "promo5": [
         {
           "rarity": 5,
           "type": "Character",
           "specType": "Promotional",
-          "name": "Kokomi"
+          "name": "Zhongli"
         }
       ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Xinqiu"
+      "details": {
+        "1.1": {
+          "startDate": "2020-12-01",
+          "endDate": "2020-12-22",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-12-02_Gentry_of_Hermitage.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Razor"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Beidou"
+        "1.5": {
+          "startDate": "2021-04-28",
+          "endDate": "2021-05-18",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-04-28_Gentry_of_Hermitage.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Rosaria"
+        "2.4": {
+          "startDate": "2022-01-25",
+          "endDate": "2022-02-15",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-01-25_Gentry_of_Hermitage.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            }
+          ]
+        },
+        "3.0": {
+          "startDate": "2022-08-24",
+          "endDate": "2022-09-09",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/08/22/d0152115c94792e7af65b205b1eaab6e_2698448218089197776.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Collei"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            }
+          ]
         }
-      ]
+      }
     },
-    "raiden": {
-      "fullName": "Reign of Sernity (Raiden Shogun)",
+    "Secretum Secretorum (Albedo)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Albedo"
+        }
+      ],
+      "details": {
+        "1.2": {
+          "startDate": "2020-12-23",
+          "endDate": "2021-01-12",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/Secretum_Secretorum.png",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            }
+          ]
+        },
+        "2.3": {
+          "startDate": "2021-11-24",
+          "endDate": "2021-12-14",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-11-24_Secretum_Secretorum.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Rosaria"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            }
+          ]
+        }
+      }
+    },
+    "Adrift in the Harbor (Ganyu)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ganyu"
+        }
+      ],
+      "details": {
+        "1.2": {
+          "startDate": "2021-01-12",
+          "endDate": "2021-02-02",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-01-13_Adrift_in_the_Harbor.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            }
+          ]
+        },
+        "2.4": {
+          "startDate": "2022-01-25",
+          "endDate": "2022-02-15",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-01-25_Adrift_in_the_Harbor.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            }
+          ]
+        },
+        "3.0": {
+          "startDate": "2022-09-09",
+          "endDate": "2022-09-27",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-09-09_Adrift_in_the_Harbor.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            }
+          ]
+        }
+      }
+    },
+    "Invitation to Mundane Life (Xiao)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Xiao"
+        }
+      ],
+      "details": {
+        "1.3": {
+          "startDate": "2021-02-03",
+          "endDate": "2021-02-17",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-02-03_Invitation_to_Mundane_Life.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            }
+          ]
+        },
+        "2.4": {
+          "startDate": "2022-01-25",
+          "endDate": "2022-02-15",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-01-05_Invitation_to_Mundane_Life.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yun Jin"
+            }
+          ]
+        },
+        "2.7": {
+          "startDate": "2022-05-31",
+          "endDate": "2022-06-21",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-05-31_Invitation_to_Mundane_Life.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            }
+          ]
+        }
+      }
+    },
+    "Dance of Lanterns (Keqing)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Keqing"
+        }
+      ],
+      "details": {
+        "1.3": {
+          "startDate": "2021-02-03",
+          "endDate": "2021-02-17",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-02-17_Dance_of_Lanterns.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            }
+          ]
+        }
+      }
+    },
+    "Moment of Bloom (Hu Tao)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Hu Tao"
+        }
+      ],
+      "details": {
+        "1.3": {
+          "startDate": "2021-03-02",
+          "endDate": "2021-03-16",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-03-02-MomentOfBloom.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            }
+          ]
+        },
+        "2.2": {
+          "startDate": "2021-11-02",
+          "endDate": "2021-11-23",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-11-02_Moment_Of_Bloom.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Thoma"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sayu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            }
+          ]
+        }
+      }
+    },
+    "Born of Ocean Swell (Eula)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Eula"
+        }
+      ],
+      "details": {
+        "1.5": {
+          "startDate": "2021-05-18",
+          "endDate": "2021-06-08",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-05-19_Born_of_Ocean_Swell.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            }
+          ]
+        },
+        "2.3": {
+          "startDate": "2021-11-02",
+          "endDate": "2021-11-23",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-11-24_Born_of_Ocean_Swell.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Rosaria"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            }
+          ]
+        }
+      }
+    },
+    "Leaves in the Wind (Kazuha)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Kazuha"
+        }
+      ],
+      "details": {
+        "1.6": {
+          "startDate": "2021-06-29",
+          "endDate": "2021-07-20",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021_07_03_Leaves_in_the_Wind.PNG",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Razor"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Rosaria"
+            }
+          ]
+        },
+        "2.8": {
+          "startDate": "2022-07-13",
+          "endDate": "2022-08-02",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/07/11/1015537/6a8aacd1a7af648d7e7a1184d11af2ec_5518970329961643281.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Heizou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Thoma"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            }
+          ]
+        }
+      }
+    },
+    "Heron's Court (Ayaka)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ayaka"
+        }
+      ],
+      "details": {
+        "2.0": {
+          "startDate": "2021-07-21",
+          "endDate": "2021-08-10",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-07-22_The_Herons_Court.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            }
+          ]
+        },
+        "2.6": {
+          "startDate": "2022-04-19",
+          "endDate": "2022-05-30",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-04-20_The_Herons_Court.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Rosaria"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Razor"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sayu"
+            }
+          ]
+        }
+      }
+    },
+    "Tapestry of Golden Flames (Yoimiya)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yoimiya"
+        }
+      ],
+      "details": {
+        "2.0": {
+          "startDate": "2021-08-10",
+          "endDate": "2021-08-31",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-08-11_Tapestry_of_Golden_Flames.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sayu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            }
+          ]
+        },
+        "2.8": {
+          "startDate": "2022-04-19",
+          "endDate": "2022-05-30",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/07/27/1015537/ed728fe4ed6b1b618289320855c8e3d5_8687552112713500420.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yun Jin"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            }
+          ]
+        }
+      }
+    },
+    "Reign of Serenity (Raiden Shogun)": {
       "promo5": [
         {
           "rarity": 5,
@@ -354,31 +969,1715 @@
           "name": "Raiden Shogun"
         }
       ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Xiangling"
+      "details": {
+        "2.1": {
+          "startDate": "2021-09-01",
+          "endDate": "2021-09-21",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-09-01_Reign_of_Serenity.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kujou Sara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            }
+          ]
         },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Sucrose"
-        },
-        {
-          "rarity": 4,
-          "type": "Character",
-          "specType": "Promotional",
-          "name": "Kujou Sara"
+        "2.5": {
+          "startDate": "2022-03-08",
+          "endDate": "2022-03-29",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-03-08_Reign_of_Serenity.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kujou Sara"
+            }
+          ]
         }
-      ]
+      }
+    },
+    "Drifting Luminescence (Kokomi)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Kokomi"
+        }
+      ],
+      "details": {
+        "2.1": {
+          "startDate": "2021-09-22",
+          "endDate": "2021-10-12",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-09-21_Drifting_Luminescence.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Rosaria"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinqiu"
+            }
+          ]
+        },
+        "2.5": {
+          "startDate": "2022-03-08",
+          "endDate": "2022-03-29",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-03-08_Drifting_Luminscence.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kujou Sara"
+            }
+          ]
+        },
+        "3.0": {
+          "startDate": "2022-09-09",
+          "endDate": "2022-09-27",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Bennett"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xinyan"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kujou Sara"
+            }
+          ]
+        }
+      }
+    },
+    "Oni's Royale (Arataki Itto)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Arataki Itto"
+        }
+      ],
+      "details": {
+        "2.3": {
+          "startDate": "2021-12-14",
+          "endDate": "2022-01-04",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-12-14_Onis_Royale.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Gorou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            }
+          ]
+        },
+        "2.7": {
+          "startDate": "2022-03-08",
+          "endDate": "2022-03-29",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/06/16/1015537/43a9de79022c352b2cad871a215a59a5_9150498122530336983.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kuki Shinobu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Gorou"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            }
+          ]
+        }
+      }
+    },
+    "The Transcendant One Returns (Shenhe)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Shenhe"
+        }
+      ],
+      "details": {
+        "2.4": {
+          "startDate": "2022-01-05",
+          "endDate": "2022-01-25",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-01-05_The_Transcendent_One_Returns.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Chongyun"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Ningguang"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yun Jin"
+            }
+          ]
+        }
+      }
+    },
+    "Everbloom Violet (Yae Miko)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yae Miko"
+        }
+      ],
+      "details": {
+        "2.5": {
+          "startDate": "2022-02-15",
+          "endDate": "2022-03-08",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-02-16_Everbloom_Violet.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Thoma"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            }
+          ]
+        }
+      }
+    },
+    "Azure Excursion (Ayato)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Ayato"
+        }
+      ],
+      "details": {
+        "2.6": {
+          "startDate": "2022-03-30",
+          "endDate": "2022-04-19",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-03-30_Azure_Excursion.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sucrose"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yun Jin"
+            }
+          ]
+        }
+      }
+    },
+    "Discerner of Enigmas (Yelan)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Yelan"
+        }
+      ],
+      "details": {
+        "2.7": {
+          "startDate": "2022-05-31",
+          "endDate": "2022-06-21",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-05-31_Discerner_of_Enigmas.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Yanfei"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Noelle"
+            }
+          ]
+        }
+      }
+    },
+    "Viridiscent Vigil (Tighnari)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Tighnari"
+        }
+      ],
+      "details": {
+        "3.0": {
+          "startDate": "2022-08-24",
+          "endDate": "2022-09-09",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/08/22/dc02dc986e9a121b9eff422f8c616d6f_1180328234142750994.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Collei"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Diona"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Fischl"
+            }
+          ]
+        }
+      }
     }
   },
   "weapon": {
-    "Kagura's Verity": {
-      "fullName": "Epitome Invocation (Kagura's Verity/Primordial Jade Cutter)",
+    "Epitome Invocation 1 (Amos' Bow / Aquila Favonia)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Amos' Bow"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Aquila Favonia"
+        }
+      ],
+      "details": {
+        "1.0": {
+          "startDate": "2020-09-29",
+          "endDate": "2020-10-18",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-09-28_Epitome_Invocation.png",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 2 (Lost Prayer to the Sacred Winds / Wolf's Gravestone)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Lost Prayer to the Sacred Winds"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Wolf's Gravestone"
+        }
+      ],
+      "details": {
+        "1.0": {
+          "startDate": "2020-10-20",
+          "endDate": "2020-11-10",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-10-19_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 3 (Skyward Harp / Memory of Dust)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Skyward Harp"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Memory of Dust"
+        }
+      ],
+      "details": {
+        "1.1": {
+          "startDate": "2020-11-11",
+          "endDate": "2020-11-30",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-11-10_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Rust"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 4 (Vortex Vanquisher / The Unforged)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Vortex Vanquisher"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "The Unforged"
+        }
+      ],
+      "details": {
+        "1.1": {
+          "startDate": "2020-12-02",
+          "endDate": "2020-12-23",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-12-02_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 5 (Summit Shaper / Skyward Atlas)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Summit Shaper"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Skyward Atlas"
+        }
+      ],
+      "details": {
+        "1.2": {
+          "startDate": "2020-12-23",
+          "endDate": "2021-01-12",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2020/2020-12-23_Epitome_Invocation.png",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 6 (Amos' Bow / Skyward Pride)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Amos' Bow"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Skyward Pride"
+        }
+      ],
+      "details": {
+        "1.2": {
+          "startDate": "2021-01-13",
+          "endDate": "2021-02-02",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-01-13_Epitome_Invocation.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 7 (Primordial Jade Winged-Spear / Primordial Jade Cutter)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Primordial Jade Winged-Spear"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Primordial Jade Cutter"
+        }
+      ],
+      "details": {
+        "1.3": {
+          "startDate": "2021-02-03",
+          "endDate": "2021-02-23",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-02-03_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Rust"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 8 (Wolf's Gravestone / Staff of Homa)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Wolf's Gravestone"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Staff of Homa"
+        }
+      ],
+      "details": {
+        "1.3": {
+          "startDate": "2021-03-03",
+          "endDate": "2021-03-18",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-02-23_EpitomeInvocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Lithic Spear"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Lithic Blade"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 9 (Elegy for the End / Skyward Blade)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Elegy for the End"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Skyward Blade"
+        }
+      ],
+      "details": {
+        "1.4": {
+          "startDate": "2021-03-16",
+          "endDate": "2021-04-06",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-03-16_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Alley Flash"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Wine and Song"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 10 (Skyward Harp / Lost Prayer to the Sacred Winds)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Skyward Harp"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Lost Prayer to the Sacred Winds"
+        }
+      ],
+      "details": {
+        "1.4": {
+          "startDate": "2021-04-06",
+          "endDate": "2021-04-27",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-04-06_EpitomeInvocation.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Alley Hunter"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 11 (Summit Shaper / Memory of Dust)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Summit Shaper"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Memory of Dust"
+        }
+      ],
+      "details": {
+        "1.5": {
+          "startDate": "2021-04-28",
+          "endDate": "2021-05-18",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-04-28_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Lithic Spear"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Lithic Blade"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 12 (Song of Broken Pines / Aquila Favonia)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Song of Broken Pines"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Aquila Favonia"
+        }
+      ],
+      "details": {
+        "1.5": {
+          "startDate": "2021-05-19",
+          "endDate": "2021-06-01",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-05-19_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Rust"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 13 (Lost Prayer to the Sacred Winds / Skyward Pride)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Lost Prayer to the Sacred Winds"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Skyward Pride"
+        }
+      ],
+      "details": {
+        "1.6": {
+          "startDate": "2021-06-07",
+          "endDate": "2021-06-30",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021_06_07_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Mitternachts Waltz"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 14 (Freedom-Sworn / Skyward Atlas)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Freedom-Sworn"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Skyward Atlas"
+        }
+      ],
+      "details": {
+        "1.6": {
+          "startDate": "2021-07-01",
+          "endDate": "2021-07-19",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021_07_03_Epitome_Invocation.PNG",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Alley Hunter"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Alley Flash"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Wine and Song"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 15 (Mistsplitter Reforged / Skyward Spine)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Mistsplitter Reforged"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Skyward Spine"
+        }
+      ],
+      "details": {
+        "2.0": {
+          "startDate": "2021-07-22",
+          "endDate": "2021-08-10",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-07-22_Epitome_Invocation.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 16 (Thundering Pulse / Skyward Blade)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Thundering Pulse"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Skyward Blade"
+        }
+      ],
+      "details": {
+        "2.0": {
+          "startDate": "2021-08-11",
+          "endDate": "2021-09-01",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-08-11_Epitome_Invocation.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 17 (The Unforged / Engulfing Lightning)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "The Unforged"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Engulfing Lightning"
+        }
+      ],
+      "details": {
+        "2.1": {
+          "startDate": "2021-09-01",
+          "endDate": "2021-09-21",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-09-01_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 18 (Primordial Jade Cutter / Everlasting Moonglow)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Primordial Jade Cutter"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Everlasting Moonglow"
+        }
+      ],
+      "details": {
+        "2.1": {
+          "startDate": "2021-09-21",
+          "endDate": "2021-10-12",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-09-21_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 19 (Polar Star / Memory of Dust)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Polar Star"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Memory of Dust"
+        }
+      ],
+      "details": {
+        "2.2": {
+          "startDate": "2021-10-13",
+          "endDate": "2021-11-02",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-10-12_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Rust"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Akuomaru"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 20 (Elegy for the End / Staff of Homa)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Elegy for the End"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Staff of Homa"
+        }
+      ],
+      "details": {
+        "2.2": {
+          "startDate": "2021-11-02",
+          "endDate": "2021-11-23",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-11-02_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Mouun's Moon"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Wavebreaker's Fin"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 21 (Freedom-Sworn / Song of Broken Pines)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Freedom-Sworn"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Staff of Homa"
+        }
+      ],
+      "details": {
+        "2.3": {
+          "startDate": "2021-11-24",
+          "endDate": "2021-12-14",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-11-24_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Alley Hunter"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Wine and Song"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 22 (Skyward Harp / Redhorn Stonethresher)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Skyward Harp"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Redhorn Stonethresher"
+        }
+      ],
+      "details": {
+        "2.3": {
+          "startDate": "2021-12-14",
+          "endDate": "2022-01-04",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2021/2021-12-14_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Mitternachts Waltz"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Alley Flash"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 23 (Calamity Queller / Primordial Jade-Winged Spear)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Calamity Queller"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Primordial Jade Winged-Spear"
+        }
+      ],
+      "details": {
+        "2.4": {
+          "startDate": "2022-01-05",
+          "endDate": "2022-01-25",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-01-05_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Lithic Spear"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 24 (Amos' Bow / Vortex Vanquisher)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Amos' Bow"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Vortex Vanquisher"
+        }
+      ],
+      "details": {
+        "2.4": {
+          "startDate": "2022-01-25",
+          "endDate": "2022-02-15",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-01-25_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Lithic Blade"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 25 (Kagura's Verity / Primordial Jade Cutter)": {
       "promo5": [
         {
           "rarity": 5,
@@ -393,335 +2692,47 @@
           "name": "Primordial Jade Cutter"
         }
       ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "The Stringless"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Sacrifical Bow"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Wavebreaker's Fin"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Eye of Perception"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Rainslasher"
+      "details": {
+        "2.5": {
+          "startDate": "2022-02-16",
+          "endDate": "2022-03-08",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/https___apptrigger.com_files_2022_02_FLhiR1MWUAEuP0C.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Wavebreaker's Fin"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
+            }
+          ]
         }
-      ]
+      }
     },
-    "Vortex Vanquisher": {
-      "fullName": "Epitome Invocation (Amo's Bow/Vortex Vanquisher)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Amo's Bow"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Vortex Vanquisher"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Sacrificial Bow"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Favonious Bow"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Dragon's Bane"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Favonious Codex"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Lithic Blade"
-        }
-      ]
-    },
-    "Calamity Queller": {
-      "fullName": "Epitome Invocation (Calamity Queller/Primordial Jade-Wing Spear)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Calamity Queller"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Primordial Jade-Wing Spear"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Favonious Warbow"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "The Flute"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Lithic Spear"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "The Widsith"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Favonious Greatsword"
-        }
-      ]
-    },
-    "Redhorn Stonethresher": {
-      "fullName": "Epitome Invocation (Redhorn Stonethresher)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Redhorn Stonethresher"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Skyward Harp"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Mitternachts Waltz"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Alley Flash"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Favonious Lance"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Sacrificial Fragments"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "The Bell"
-        }
-      ]
-    },
-    "Broken Pines/Freedom-Sworn": {
-      "fullName": "Epitome Invocation (Song of Broken Pines/Freedom-Sworn)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Song of Broken Pines"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Freedom-Sworn"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Alley Hunter"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Lion's Roar"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Dragon's Bane"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Wine and Song"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Sacrificial Greatsword"
-        }
-      ]
-    },
-    "Staff of Homa": {
-      "fullName": "Epitome Invocation (Elegy for the End/Staff of Homa)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Staff of Homa"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Elegy for the End"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Mouun's Moon"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Sacrificial Sword"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Wavebreaker's Fin"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "The Widsith"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Rainslasher"
-        }
-      ]
-    },
-    "Polar Star": {
-      "fullName": "Epitome Invocation (Polar Star)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Polar Star"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Memory of Dust"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Rust"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "Favonious Sword"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Favonious Lance"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Eye of Perception"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Akuoumaru"
-        }
-      ]
-    },
-    "Jade Cutter": {
-      "fullName": "Epitome Invocation (Jade Cutter)",
+    "Epitome Invocation 26 (Everlasting Moonglow / Engulfing Lightning)": {
       "promo5": [
         {
           "rarity": 5,
@@ -732,91 +2743,489 @@
         {
           "rarity": 5,
           "type": "Weapon",
-          "specType": "Sword",
-          "name": "Primordial Jade Cutter"
-        }
-      ],
-      "promo4": [
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Bow",
-          "name": "Stringless"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Sword",
-          "name": "The Flute"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Dragon's Bane"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Favonious Codex"
-        },
-        {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Claymore",
-          "name": "Favonious Greatsword"
-        }
-      ]
-    },
-    "Engulfing Lightning": {
-      "fullName": "Epitome Invocation (Engulfing Lightning)",
-      "promo5": [
-        {
-          "rarity": 5,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "Unforged"
-        },
-        {
-          "rarity": 5,
-          "type": "Weapon",
           "specType": "Polearm",
           "name": "Engulfing Lightning"
         }
       ],
-      "promo4": [
+      "details": {
+        "2.5": {
+          "startDate": "2022-03-08",
+          "endDate": "2022-03-29",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-03-08_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Mouun's Moon"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Akuomaru"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 27 (Elegy for the End / Haran Geppaku Futsu)": {
+      "promo5": [
         {
-          "rarity": 4,
+          "rarity": 5,
           "type": "Weapon",
           "specType": "Bow",
-          "name": "Sacrificial Bow"
+          "name": "Elegy for the End"
         },
         {
-          "rarity": 4,
+          "rarity": 5,
           "type": "Weapon",
           "specType": "Sword",
-          "name": "Lion's Roar"
-        },
+          "name": "Haran Geppaku Futsu"
+        }
+      ],
+      "details": {
+        "2.6": {
+          "startDate": "2022-03-30",
+          "endDate": "2022-04-19",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-03-30_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Rust"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 28 (Mistsplitter Reforged / The Unforged)": {
+      "promo5": [
         {
-          "rarity": 4,
+          "rarity": 5,
           "type": "Weapon",
-          "specType": "Polearm",
-          "name": "Favonious Lance"
+          "specType": "Sword",
+          "name": "Mistsplitter Reforged"
         },
         {
-          "rarity": 4,
-          "type": "Weapon",
-          "specType": "Catalyst",
-          "name": "The Widsth"
-        },
-        {
-          "rarity": 4,
+          "rarity": 5,
           "type": "Weapon",
           "specType": "Claymore",
-          "name": "The Bell"
+          "name": "The Unforged"
         }
-      ]
+      ],
+      "details": {
+        "2.6": {
+          "startDate": "2022-04-19",
+          "endDate": "2022-06-07",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-04-20_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 29 (Aqua Simulacra / Primordial Jade-Winged Spear)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Aqua Simulacra"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Primordial Jade Winged-Spear"
+        }
+      ],
+      "details": {
+        "2.7": {
+          "startDate": "2022-05-31",
+          "endDate": "2022-06-21",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-05-31_Epitome_of_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Lithic Spear"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 30 (Redhorn Stonethresher / Memory of Dust)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Claymore",
+          "name": "Redhorn Stonethresher"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Memory of Dust"
+        }
+      ],
+      "details": {
+        "2.7": {
+          "startDate": "2022-06-21",
+          "endDate": "2022-07-12",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-06-21_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Lithic Blade"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 31 (Freedom-Sworn / Lost Prayer to the Sacred Winds)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Freedom-Sworn"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Lost Prayer to the Sacred Winds"
+        }
+      ],
+      "details": {
+        "2.8": {
+          "startDate": "2022-07-13",
+          "endDate": "2022-08-02",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-07-13_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Mitternachts Waltz"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Alley Flash"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "The Widsith"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 32 (Thundering Pulse / Summit Shaper)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Thundering Pulse"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Summit Shaper"
+        }
+      ],
+      "details": {
+        "2.8": {
+          "startDate": "2022-08-02",
+          "endDate": "2022-08-23",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-08-02-Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Alley Hunter"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "The Flute"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Wine and Song"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Sacrificial Greatsword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 33 (Hunter's Path / Vortex Vanquisher)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Hunter's Path"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Vortex Vanquisher"
+        }
+      ],
+      "details": {
+        "3.0": {
+          "startDate": "2022-08-24",
+          "endDate": "2022-09-09",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-08-24_Epitome_Invocation.jpeg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "The Stringless"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Favonious Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Favonious Codex"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "The Bell"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 34 (Amos' Bow / Everlasting Moonglow)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Amos' Bow"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Catalyst",
+          "name": "Everlasting Moonglow"
+        }
+      ],
+      "details": {
+        "3.0": {
+          "startDate": "2022-08-24",
+          "endDate": "2022-09-09",
+          "bannerImg": "https://www.gensh.in/fileadmin/Database/Banner_Gacha/2022/2022-09-09_Epitome_Invocation.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Rust"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Sacrificial Sword"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Eye of Perception"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Favonious Sword"
+            }
+          ]
+        }
+      }
     }
   }
 }

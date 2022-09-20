@@ -11,7 +11,7 @@ const RSTable = props => {
   ))
 
   return (
-    <table>
+    <table className={props.className}>
       <thead>
         <tr>
           <td>#</td>
