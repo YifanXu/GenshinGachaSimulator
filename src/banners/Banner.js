@@ -9,4 +9,16 @@ export default class Banner {
         this.catalog = catalog
         this.banners = banners
     }
+
+    filterCatalog(dateStr, promotionalItems) {
+        const cutoff = new Date(dateStr).getTime()
+        const filterItems = promotionalItems.map(item => item.name)
+
+        const newCatalog  = {}
+
+        Object.entries(this.catalog).forEach(([listName, list]) => {
+            newCatalog[listName] = list.filter(listItem => !filterItems.includes(listItem.name) && (!listItem.release || new Date(listItem.release).getTime() < cutoff))
+        })
+        this.catalog = newCatalog
+    }
 }

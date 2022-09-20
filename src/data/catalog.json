@@ -227,32 +227,74 @@
         {
             "type": "Character",
             "specType": "Standard",
-            "name": "Diona"
+            "name": "Diona",
+            "release": "2020-11-11"
         },
         {
             "type": "Character",
             "specType": "Standard",
-            "name": "Xinyan"
+            "name": "Xinyan",
+            "release": "2020-12-01"
         },
         {
             "type": "Character",
             "specType": "Standard",
-            "name": "Yanfei"
+            "name": "Rosaria",
+            "release": "2021-04-07"
         },
         {
             "type": "Character",
             "specType": "Standard",
-            "name": "Sayu"
+            "name": "Yanfei",
+            "release": "2021-04-28"
         },
         {
             "type": "Character",
             "specType": "Standard",
-            "name": "Kujou Sara"
+            "name": "Sayu",
+            "release": "2021-08-10"
         },
         {
             "type": "Character",
             "specType": "Standard",
-            "name": "Thoma"
+            "name": "Kujou Sara",
+            "release": "2021-09-01"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Thoma",
+            "release": "2021-11-02"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Gorou",
+            "release": "2021-12-14"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Yun Jin",
+            "release": "2022-01-05"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Kuki Shinobu",
+            "release": "2022-06-21"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Heizou",
+            "release": "2022-07-13" 
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Dori",
+            "release": "2022-09-09"
         }
     ],
     "weapon5": [
@@ -332,6 +374,12 @@
             "type": "Character",
             "specType": "Standard",
             "name": "Keqing"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Tighnari",
+            "release": "2022-08-24"
         }
     ]
 }

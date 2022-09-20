@@ -38,6 +38,8 @@ class CBanner extends Banner {
     this.bannerInfo = banner
     this.epCount = 0
     this.version = version
+
+    this.filterCatalog(banner.details[version].startDate, banner.promo5.concat(banner.details[version].promo4))
   }
 
   rollRarity(rc) {

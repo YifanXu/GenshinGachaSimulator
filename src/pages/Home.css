@@ -22,8 +22,8 @@
   display: flex;
 }
 
-.bannerSelector > div {
-  margin: 5px;
+.bannerSelector > * {
+  margin: 0px 5px;
 }
 
 .bannerTypeDropdown {

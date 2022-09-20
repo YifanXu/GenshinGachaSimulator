@@ -1,4 +1,4 @@
-import React, { version } from 'react'
+import React from 'react'
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Input, Popover, PopoverBody, ListGroup, ListGroupItem } from 'reactstrap';
 import banners from '../data/banners.json'
 import RSTable from '../RSTable'
@@ -77,7 +77,6 @@ class Home extends React.Component {
         reducer.bannerObject = new WBanner(reducer.activeBanner || this.state.activeBanner, reducer.activeVersion || this.state.activeVersion)
         break
       case 'c':
-        console.log(reducer)
         reducer.bannerObject = new CBanner(reducer.activeBanner || this.state.activeBanner, reducer.activeVersion || this.state.activeVersion)
         break
       default:
