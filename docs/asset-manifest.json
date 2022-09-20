@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GenshinGachaSimulator/static/css/main.3c297aa7.css",
-    "main.js": "/GenshinGachaSimulator/static/js/main.c28d640c.js",
+    "main.css": "/GenshinGachaSimulator/static/css/main.ecef65c7.css",
+    "main.js": "/GenshinGachaSimulator/static/js/main.74d8944b.js",
     "index.html": "/GenshinGachaSimulator/index.html",
-    "main.3c297aa7.css.map": "/GenshinGachaSimulator/static/css/main.3c297aa7.css.map",
-    "main.c28d640c.js.map": "/GenshinGachaSimulator/static/js/main.c28d640c.js.map"
+    "main.ecef65c7.css.map": "/GenshinGachaSimulator/static/css/main.ecef65c7.css.map",
+    "main.74d8944b.js.map": "/GenshinGachaSimulator/static/js/main.74d8944b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c297aa7.css",
-    "static/js/main.c28d640c.js"
+    "static/css/main.ecef65c7.css",
+    "static/js/main.74d8944b.js"
   ]
 }
