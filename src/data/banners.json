@@ -88,6 +88,31 @@
               "name": "Yun Jin"
             }
           ]
+        },
+        "3.1": {
+          "startDate": "2022-09-27",
+          "endDate": "2022-10-14",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/09/26/11ad458890953e17e0a8f88e648d953d_7218572469928382884.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kuki Shinobu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Candace"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sayu"
+            }
+          ]
         }
       }
     },
@@ -1350,6 +1375,43 @@
               "type": "Character",
               "specType": "Promotional",
               "name": "Fischl"
+            }
+          ]
+        }
+      }
+    },
+    "Twilight Arbiter (Cyno)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Cyno"
+        }
+      ],
+      "details": {
+        "3.1": {
+          "startDate": "2022-09-27",
+          "endDate": "2022-10-14",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/09/26/308494d401ffc07e7bafd405dddf2f13_8894145987586301542.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Kuki Shinobu"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Candace"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Sayu"
             }
           ]
         }
@@ -3222,6 +3284,61 @@
               "type": "Weapon",
               "specType": "Claymore",
               "name": "Favonious Sword"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 35 (Elegy for the End / Staff of the Scarlet Sands)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Bow",
+          "name": "Elegy for the End"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Polearm",
+          "name": "Staff of the Scarlet Sands"
+        }
+      ],
+      "details": {
+        "3.1": {
+          "startDate": "2022-09-27",
+          "endDate": "2022-10-14",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/09/26/182827dd92bef79b66e3d0b5a66e31ac_1912360409263282764.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Favonious Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Lion's Roar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Favonious Lance"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Sacrificial Fragments"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Makhaira Aquamarine"
             }
           ]
         }

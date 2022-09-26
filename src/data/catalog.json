@@ -295,6 +295,12 @@
             "specType": "Standard",
             "name": "Dori",
             "release": "2022-09-09"
+        },
+        {
+            "type": "Character",
+            "specType": "Standard",
+            "name": "Candance",
+            "release": "2022-09-27"
         }
     ],
     "weapon5": [
