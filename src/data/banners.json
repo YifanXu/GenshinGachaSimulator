@@ -461,6 +461,31 @@
               "name": "Noelle"
             }
           ]
+        },
+        "3.1": {
+          "startDate": "2022-09-27",
+          "endDate": "2022-10-14",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/0ea9869ba8d46d71d5d349fbdc20add8_8283091291010876846.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
+            }
+          ]
         }
       }
     },
@@ -1412,6 +1437,43 @@
               "type": "Character",
               "specType": "Promotional",
               "name": "Sayu"
+            }
+          ]
+        }
+      }
+    },
+    "Twirling Lotus (Nilou)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Character",
+          "specType": "Promotional",
+          "name": "Nilou"
+        }
+      ],
+      "details": {
+        "3.1": {
+          "startDate": "2022-09-27",
+          "endDate": "2022-10-14",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/de0e37af9754660b92024deb20a1137f_1481363351940958489.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Barbara"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Xiangling"
+            },
+            {
+              "rarity": 4,
+              "type": "Character",
+              "specType": "Promotional",
+              "name": "Beidou"
             }
           ]
         }
@@ -3339,6 +3401,61 @@
               "type": "Weapon",
               "specType": "Claymore",
               "name": "Makhaira Aquamarine"
+            }
+          ]
+        }
+      }
+    },
+    "Epitome Invocation 36 (Key of Khaj-Nisut / Primordial Jade Cutter)": {
+      "promo5": [
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Key of Khaj Nisut"
+        },
+        {
+          "rarity": 5,
+          "type": "Weapon",
+          "specType": "Sword",
+          "name": "Primordial Jade Cutter"
+        }
+      ],
+      "details": {
+        "3.1": {
+          "startDate": "2022-09-27",
+          "endDate": "2022-10-14",
+          "bannerImg": "https://upload-os-bbs.hoyolab.com/upload/2022/10/11/a061fe08b3d48791a609d37e698704d3_3512969501829621894.jpg",
+          "promo4": [
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Bow",
+              "name": "Sacrificial Bow"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Sword",
+              "name": "Xiphos' Moonlight"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Polearm",
+              "name": "Dragon's Bane"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Catalyst",
+              "name": "Wandering Evenstar"
+            },
+            {
+              "rarity": 4,
+              "type": "Weapon",
+              "specType": "Claymore",
+              "name": "Rainslasher"
             }
           ]
         }
